@@ -116,8 +116,7 @@ public class Lshaped {
 						piT[i][1]+=u[i][j]*T[1][j];
 						
 					}
-					
-					
+				
 				}else
 				{
 					System.out.println("子问题求解出错");
@@ -129,8 +128,7 @@ public class Lshaped {
 				sp.clearModel();
 			}
 			Ex=E[0]*x_value[0]+E[1]*x_value[1];
-			System.out.println("e="+e+",Ex="+Ex);
-			System.out.println("theta="+theta_value);
+			
 			double w=e-Ex;
 			if(theta_value>=w)
 			{
